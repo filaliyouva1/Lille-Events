@@ -1,0 +1,103 @@
+ select, button{
+  background : #F7F9EE;
+  border : solid 1px;
+  padding : 3px;
+  border-radius : 5px;
+}
+
+body {
+     font-family : Helvetica ;
+     color : #F7F9EE;
+     background-color : #54586E;
+     padding : 0;
+     margin : 0;
+}
+#espace_fixe, #espace_variable {
+  position : absolute;
+  margin : 0;
+  padding : 9px;
+ }
+#espace_fixe {
+  left: 0;
+  right : 38%;
+  background-color : yellow;
+}
+#espace_variable{
+  left : 62%;
+  right : 0%;
+  background-color : #DA8238;
+}
+
+#espace_fixe>section{
+   position : absolute;
+   overflow: scroll;
+   margin : 0;
+   padding : 8px;
+}
+#section_equipe{
+  left : 0%;
+  right : 50%;
+  top : 0%;
+  height : 500px;
+  background : #a18c75;
+}
+#section_evenements{
+  left: 50%; right : 0%;
+  top : 0%;
+  height : 500px;
+  background : #557561;  ;
+}
+#section_allEvenements{
+  background-color : #757cA5;
+  left: 0; right : 0;
+  top : 515px;
+}
+#form_login{
+  text-align : right;
+}
+#espace_fixe>nav{
+  display:none;
+}
+
+body>h1 {
+  color : darkgrey ;
+  text-align : center;
+  margin : 0;
+  padding : 10px;
+  background-color : white;
+}
+fieldset {
+  border : 1px solid darkgrey ;
+  margin : 10px ;
+}
+section#errorMessage{
+  background-color : lightyellow;
+  padding : 5pt;
+  margin : 10px ;
+}
+#connecte>h2{
+  text-align : left;
+  margin-bottom : 4px;
+}
+#gestion_favoris{
+  margin-top : 15pt;
+  margin-bottom : 10pt;
+}
+#avatar{
+ float : right;
+ max-width : 80px;
+ max-height : 120px;
+}
+button.suppFav{
+ margin-left : 10px;
+}
+table {
+  border-collapse : collapse;
+}
+table td {
+  border : solid 1pt black;
+  padding : 3pt;
+}
+section#section_equipe>div.resultat span{
+ display : block;
+}

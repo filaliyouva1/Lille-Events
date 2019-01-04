@@ -1,0 +1,15 @@
+table{
+   border-spacing : 3pt;
+}
+tbody td{
+ background-color : lightgrey;
+ padding : 3pt;
+}
+thead td{
+ background-color : darkgrey;
+ color : white;
+ padding : 4pt;
+}
+td:nth-child(-n+2){
+   text-align : center;
+}
